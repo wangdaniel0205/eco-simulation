@@ -1,4 +1,4 @@
-# eco-simulation
+# ecosystem-simulation
 
 This project is aim to utilize the python tkinter to produce a simulated ecosystem where rabbits and fox lives. The motive of this has came from Sebastian Lague's youtube video "Coding Adventure: Simulating an Ecosystem" https://www.youtube.com/watch?v=r_It_X7v-1E.
 
