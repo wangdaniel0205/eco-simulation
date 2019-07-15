@@ -13,8 +13,8 @@ class Fox(tk.Frame):
 class MainAppliaction(tk.Frame):
     def __init__(self, parent, *args, **kwargs):
         tk.Frame.__init__(self, parent, *args, **kwargs)
-        root.title("너가 정해라 이거 ㅋㅋㅋ")
-        root.geometry("500x500")
+        root.title("이거 너가 정해라ㅋㅋㅋ")
+        root.geometry("750x750")
         root.resizable(0, 0)
 
         self.world = tk.Canvas(root, width=1000, height=1000, highlightthickness=0, background="{}".format("#%02x%02x%02x" % (249,248,249)))
