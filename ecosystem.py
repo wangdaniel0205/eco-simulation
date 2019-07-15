@@ -29,7 +29,24 @@ class MainAppliaction(tk.Frame):
                     self.grids[col,row] = self.world.create_rectangle(row*cs.gridSize, col*cs.gridSize,(row+1)*cs.gridSize, (col+1)*cs.gridSize, fill="{}".format(cs.mapColors[1]), outline="{}".format(cs.mapColors[1]))
                 elif cs.mapValues[col,row] == 2:
                     self.grids[col,row] = self.world.create_rectangle(row*cs.gridSize, col*cs.gridSize,(row+1)*cs.gridSize, (col+1)*cs.gridSize, fill="{}".format(cs.mapColors[2]), outline="{}".format(cs.mapColors[2]))
-
+                elif cs.mapValues[col,row] == 3:
+                    self.grids[col,row] = self.world.create_rectangle(row*cs.gridSize, col*cs.gridSize,(row+1)*cs.gridSize, (col+1)*cs.gridSize, fill="{}".format(cs.mapColors[3]), outline="{}".format(cs.mapColors[3]))
+                elif cs.mapValues[col,row] == 4:
+                    self.grids[col,row] = self.world.create_rectangle(row*cs.gridSize, col*cs.gridSize,(row+1)*cs.gridSize, (col+1)*cs.gridSize, fill="{}".format(cs.mapColors[4]), outline="{}".format(cs.mapColors[4]))
+                elif cs.mapValues[col,row] == 5:
+                    self.grids[col,row] = self.world.create_rectangle(row*cs.gridSize, col*cs.gridSize,(row+1)*cs.gridSize, (col+1)*cs.gridSize, fill="{}".format(cs.mapColors[5]), outline="{}".format(cs.mapColors[5]))
+                elif cs.mapValues[col,row] == 6:
+                    self.grids[col,row] = self.world.create_rectangle(row*cs.gridSize, col*cs.gridSize,(row+1)*cs.gridSize, (col+1)*cs.gridSize, fill="{}".format(cs.mapColors[6]), outline="{}".format(cs.mapColors[6]))
+                elif cs.mapValues[col,row] == 7:
+                    self.grids[col,row] = self.world.create_rectangle(row*cs.gridSize, col*cs.gridSize,(row+1)*cs.gridSize, (col+1)*cs.gridSize, fill="{}".format(cs.mapColors[7]), outline="{}".format(cs.mapColors[7]))
+                elif cs.mapValues[col,row] == 8:
+                    self.grids[col,row] = self.world.create_rectangle(row*cs.gridSize, col*cs.gridSize,(row+1)*cs.gridSize, (col+1)*cs.gridSize, fill="{}".format(cs.mapColors[8]), outline="{}".format(cs.mapColors[8]))
+                elif cs.mapValues[col,row] == 9:
+                    self.grids[col,row] = self.world.create_rectangle(row*cs.gridSize, col*cs.gridSize,(row+1)*cs.gridSize, (col+1)*cs.gridSize, fill="{}".format(cs.mapColors[9]), outline="{}".format(cs.mapColors[9]))
+                elif cs.mapValues[col,row] == 10:
+                    self.grids[col,row] = self.world.create_rectangle(row*cs.gridSize, col*cs.gridSize,(row+1)*cs.gridSize, (col+1)*cs.gridSize, fill="{}".format(cs.mapColors[10]), outline="{}".format(cs.mapColors[10]))
+                elif cs.mapValues[col,row] == 11:
+                    self.grids[col,row] = self.world.create_rectangle(row*cs.gridSize, col*cs.gridSize,(row+1)*cs.gridSize, (col+1)*cs.gridSize, fill="{}".format(cs.mapColors[11]), outline="{}".format(cs.mapColors[11]))
 
 
 
