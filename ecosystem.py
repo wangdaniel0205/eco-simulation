@@ -2,6 +2,14 @@ import constants as cs
 import tkinter as tk
 from numpy import array, empty
 
+class Rabbit(tk.Frame):
+    pass
+
+class Fox(tk.Frame):
+    pass
+
+
+
 class MainAppliaction(tk.Frame):
     def __init__(self, parent, *args, **kwargs):
         tk.Frame.__init__(self, parent, *args, **kwargs)
