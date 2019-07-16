@@ -105,7 +105,7 @@ mapValues = array([ # water in 0, sand in 4, land in 2
 
 print (mapValues.shape)
 
-# mapColors 0-3 water 4-8 sand 9-12
+# mapColors 0-3 water 4-8 sand 9-12 all from light to dark
 mapColors = ["#90bbc6", "#6fb8fc", "#4068aa", "#435375", "#f3f990", "#fbf36c", "#cfcd5b", "#98922f", "#cdebb4", "#739b4c", "#40632b", "#36452e"]
 mapSize = 4000
 gridSize = 4000//400
