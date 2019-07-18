@@ -122,7 +122,7 @@ zoomGridSize = mapSize//zoomPix
 miniMapSize = 100
 miniGridSize = miniMapSize//100
 
-barSize = miniMapSize // zoomValue
+barSize = miniMapSize // zoomValue #20
 
 
 uiSizeX = 300
