@@ -1,0 +1,56 @@
+{
+    "carrot": [],
+    "meat": [],
+    "rabbit": [
+        {
+            "x": 21,
+            "y": 29,
+            "health": 100,
+            "gender": 0,
+            "age": 15,
+            "hunger": 48,
+            "thirst": 49,
+            "direction": "W",
+            "action": "Moving",
+            "desire": 23
+        }
+    ],
+    "fox": [
+        {
+            "x": 22,
+            "y": 8,
+            "health": 100,
+            "gender": 0,
+            "age": 15,
+            "hunger": 45,
+            "thirst": 61,
+            "direction": "W",
+            "action": "Drinking",
+            "desire": -17
+        },
+        {
+            "x": 28,
+            "y": 21,
+            "health": 100,
+            "gender": 1,
+            "age": 15,
+            "hunger": 48,
+            "thirst": 49,
+            "direction": "S",
+            "action": "Moving",
+            "pregnant": 0
+        },
+        {
+            "x": 12,
+            "y": 23,
+            "health": 100,
+            "gender": 1,
+            "age": 15,
+            "hunger": 48,
+            "thirst": 49,
+            "direction": "E",
+            "action": "Moving",
+            "pregnant": 0
+        }
+    ]
+}

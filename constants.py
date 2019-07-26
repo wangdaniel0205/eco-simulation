@@ -114,12 +114,12 @@ mapColors = ["#90bbc6", "#6fb8fc", "#4068aa", "#435375", "#f3f990", "#fbf36c", "
 mapSize = 700
 gridSize = mapSize//100
 
-zoomValue = 5
-zoomPix = 100//zoomValue
-zoomGridSize = mapSize//zoomPix
+zoomValue = 4
+zoomPix = 100//zoomValue # how many grids after zoom in
+zoomGridSize = mapSize//zoomPix # actual pixel value per grid
 
 
-miniMapSize = 100
+miniMapSize = 100 # minimap
 miniGridSize = miniMapSize//100
 
 barSize = miniMapSize // zoomValue #20
@@ -128,8 +128,12 @@ barSize = miniMapSize // zoomValue #20
 uiSizeX = 300
 uiSizeY = mapSize
 
+imageAdjustSmall = gridSize//2
+imageAdjustBig = zoomGridSize//2
 
 
+visionR = 5
+visionF = 6
 
 #90bbc6 #6fb8fc #4068aa #435375 Blue from light to dark
 #f3f990 #fbf36c #cfcd5b #98922f yellow
